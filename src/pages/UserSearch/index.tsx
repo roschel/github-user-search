@@ -78,12 +78,12 @@ const UserSearch = () => {
                                 </div>
                                 <div className="user-followers">
                                     <label className="followers-text">
-                                        Repositórios públicos: {responseApi?.followers}
+                                        Seguidores: {responseApi?.followers}
                                     </label>
                                 </div>
                                 <div className="user-following">
                                     <label className="following-text">
-                                        Repositórios públicos: {responseApi?.following}
+                                        Seguindo: {responseApi?.following}
                                     </label>
                                 </div>
 
